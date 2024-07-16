@@ -24,7 +24,7 @@
 .beauty {text-align: left;
     margin-bottom: 0;
     margin-top: 3vh;
-    margin-left: 8vh;}
+    margin-left: 8vw;}
 
 .grown {font-family: "Cormorant Garamond", serif;
     font-weight: 300;
@@ -33,7 +33,7 @@
     color: white;}
 .grown {text-align: right;
     margin-top: 0;
-    margin-right: 8vh;
+    margin-right: 8vw;
     margin-bottom: 8vh;}
 
 a {text-decoration: none;
@@ -46,8 +46,8 @@ margin-top: 8vh;}
 align-items: center;}
 
 .border { border: solid #303F3C;
-margin: 5vh 3vh;
-padding: 2vh 1vh;}
+margin: 5vh 3vw;
+padding: 2vh 1vw;}
 
 .introduccion {
 background-image: url(../imagenes/collar.png);
@@ -60,7 +60,7 @@ background-size: cover;}
     font-style: normal;
     font-size: 80px;
     color: white;}
-.parrafo {padding: 5vh 20vh;}
+.parrafo {padding: 5vh 15vw;} 
 
 .parrafo1 {font-family: "Cormorant Garamond", serif;
     font-weight: 300;
@@ -70,8 +70,8 @@ background-size: cover;}
 .parrafo1{
 padding-bottom: 15vh;
 padding-top: 5vh;
-padding-left: 20vh;
-padding-right: 20vh;}
+padding-left: 10vw;
+padding-right: 10vw;}
 
 h3 {font-family: "Cormorant Garamond", serif;
     font-weight: 200;
@@ -88,10 +88,12 @@ flex-wrap: wrap;}
 font-weight: 400;
 font-style: normal;
 font-size: 30px;
-color: #303F3C;}
+color: #303F3C;
+margin-bottom: 10vh;
+margin-top: 5vh;}
 
 .aros {border: solid;
-padding: 2vh 2vh;
+padding: 2vh 1vw;
 margin-top: 8vh;}
 
 .coleccion2 {background-color: #303F3C;
@@ -115,19 +117,20 @@ p {font-family: "Cormorant Garamond", serif;
 color: white;}
 
 .productos2 {border: solid 5px white;
-width: 100vh;
+width: 50vw;
 height: 60vh;
-margin: 20vh 25vh;
+margin: 20vh 10vw;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-align-content: space-between;}
+align-content: space-between;
+flex-wrap: wrap;}
 
 .productos3 {border: solid 5px white;
-    width: 100vh;
+    width: 50vw;
     height: 60vh;
-    margin: 20vh 25vh;
+    margin: 20vh 10vw;
     display: flex;
     flex-direction: column;
     align-items: center;
