@@ -114,32 +114,33 @@
      </main>
 
      <footer>
-        <figure>
-            <img src="../imagenes/imgfinal.png" alt="collar">
-        </figure>
-        <div class="contenedor-formulario">
-            <h4>
+
+        <div class="fondo">
+            <h4 class="contacto">
                 Discover Our Stores
             </h4>
+        </div>
 
+<div class="formulario">
             <form action="Direccion" method="post">
-                <label for="Nombre"> Nombre
-                <input type="text" name="nombre" value="">
-                </label>
+                
+                <label for="Nombre"> Nombre: </label>  <br>
+                <input type="text" name="nombre" class="contact"> <br><br>
+                
+                <label for="Direccion"> Direccion:   </label> <br>
+                    <input type="text" name="Direccion" class="contact"><br> <br>
+                
+                <label for="provincia"> Provincia:</label><br>
+                    <input type="text" name="provincia" class="contact"><br> <br>
+                      
+                <label for="Telefono"> Telefono:  </label><br>
+                    <input type="number" name="telefono" class="contact"> <br> <br>
 
-                <label for="Direccion"> Direccion
-                    <input type="text" name="Direccion">
-                </label>
-
-                <label for="provincia"> Provincia
-                    <input type="text" name="provincia">
-                </label>
-
-                <label for="Telefono"> Telefono 
-                    <input type="number" name="telefono">
-                </label>
+                    <input type="button" value="Enviar" class="boton"><br> 
+                    
             </form>
         </div>
      </footer>
+       
 </body>
 </html>
